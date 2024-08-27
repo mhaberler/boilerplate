@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "build-android-release": "cd android && ./gradlew assembleRelease && cd ..",
+    "deploy-android-release": "rsync -avz android/app/build/outputs/apk mah.priv.at:/var/www/static.mah.priv.at/apps/mobile/android/$npm_package_name",
+    "echo-name": "echo $npm_package_name",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
