@@ -35,10 +35,7 @@
 	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen.storyboard</string>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv64</string>
-	</array>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
