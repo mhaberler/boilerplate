@@ -5,6 +5,8 @@
   "scripts": {
     "yarn-install": "yarn install",
     "android": "react-native run-android",
+    "build-ios-debug": "react-native build-ios --mode=Debug",
+    "build-ios-release": "react-native build-ios --mode=Release",
     "build-android-debug-aab": "react-native build-android --mode=debug",
     "build-android-release-aab": "react-native build-android --mode=release",
     "build-android-debug-apk": "cd android && ./gradlew assembleDebug && cd ..",
