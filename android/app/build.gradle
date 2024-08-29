@@ -76,7 +76,7 @@ android {
 
     namespace "com.boilerplate"
     defaultConfig {
-        applicationId "com.boilerplate"
+        applicationId "com.haberler.boilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
